@@ -1,0 +1,39 @@
+//--- General ---\\
+  Global Variables:
+    * bullet
+    * bullet-type
+    * magazine
+    * fire
+    * reload
+
+  - "no ammo" element display if reload is active; if "no ammo" element is appended, do not trigger function
+  - on reload, reinsert [gun-specific] amounts of rounds and remove "no ammo" element (allows firing function to resume)
+    -- [array? if so, "12","36","60","8","4","1"]
+
+    // Pistol //
+      Variable:
+      * bullets = 12;
+
+    // Burst //;
+      * bullets = 36;
+
+    // Auto //
+      * bullets = 60;
+
+    // Shotgun //
+      * bullets = 8;
+      * reload = shell per 500ms;
+      * reload.endFunction() = when reload fires 8 times && 8 bullets appear && bullets = 8 == true, pump shotgun and reactivate firing function
+
+      - on every press of fire button, bring up "pump" element & grey out current bullet
+        --> time on activation: 1000ms; on completion of animation, expend greyed-out shell
+
+    // Sniper //
+      * bullets = 4;
+
+
+      - on every press of fire button, bring up "cycle" element & grey out current bullet
+        --> time on activation: 1500ms;
+
+    // Rocket //
+      * bullets = 1;

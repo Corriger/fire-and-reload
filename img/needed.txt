@@ -1,0 +1,28 @@
+Automatic Weapon
+- full-auto (10/sec)
+- 20 rounds
+- magazine reload
+
+Burst Fire Weapon
+- three-round shot
+- 36 rounds
+- magazine reload
+
+Bolt-action Rifle
+- bolt cycle per shot
+- 5 rounds
+- one reload & bolt cycle
+
+Shotgun
+- pump action
+- 8 shells
+- individual reload & pump
+
+Rocket
+- load into... barrel directly...?
+- 1 shot before reload
+
+Semi-automatic Weapon (Pistol)
+- per trigger pull (as fast as possible)
+- 12 rounds
+- magazine reload
