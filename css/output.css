@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Forerunner";
+  src: url(../font/halo/Halo.ttf); }
+@font-face {
+  font-family: "Forerunner Lite";
+  src: url(../font/halo/Halo-Outline.ttf); }
+ul {
+  background: rgba(14, 35, 62, 0.5); }
+
+section {
+  width: 400px; }
+
+div {
+  margin: 1em;
+  width: 120px;
+  color: #b8cde4;
+  font-family: "Forerunner Lite";
+  font-size: 1em;
+  text-shadow: 0px 0px 3px rgba(14, 35, 62, 0.5); }
+  div img {
+    width: 100%; }
+
+button {
+  text-align: center;
+  letter-spacing: 1em;
+  border: 2px solid #b8cde4;
+  border-radius: 25%; }
+
+/*# sourceMappingURL=output.css.map */

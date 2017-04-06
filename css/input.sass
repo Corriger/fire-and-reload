@@ -2,16 +2,31 @@ $navy: rgba(14,35,62,.5)
 $light: rgba(27,88,138,.7)
 $s-light: rgba(184,205,228,1)
 
+// fonts
+@font-face
+  font-family: "Forerunner"
+  src: url(../font/halo/Halo.ttf)
+
+@font-face
+  font-family: "Forerunner Lite"
+  src: url(../font/halo/Halo-Outline.ttf)
+
+
 //guns and info
 ul
   background: $navy
 
 section
+  //position: absolute
   width: 400px
 
 div
   margin: 1em
   width: 120px
+  color: $s-light
+  font-family: "Forerunner Lite"
+  font-size: 1em
+  text-shadow: 0px 0px 3px $navy
   img
     width: 100%
 
